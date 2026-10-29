@@ -1,40 +1,56 @@
 <script lang="ts">
     import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
+
+    let { title = '' }: { title?: string } = $props();
 </script>
 
 <div class="m-select-floor d-block d-md-none">
-    <SectionTitle title="სართულის შეცვლა" class="justify-content-center" />
-    <div class="container">
+    {#if title}
+        <SectionTitle {title} class="justify-content-center" />
+    {/if}
+    <div class={title ? 'container' : 'container pl-container'}>
         <div class="m-select-floor__container">
             <div class="row">
                 <div class="col-4">
                     <li class="disable">
-                        <a href=""> 1 </a>
+                        <a href="#">
+                            1
+                        </a>
                     </li>
                 </div>
                 <div class="col-4">
                     <li class="">
-                        <a href="/selecthouse"> 2 </a>
+                        <a href="/selecthouse">
+                            2
+                        </a>
                     </li>
                 </div>
                 <div class="col-4">
                     <li class="">
-                        <a href=""> 3 </a>
+                        <a href="#">
+                            3
+                        </a>
                     </li>
                 </div>
                 <div class="col-4">
                     <li class="">
-                        <a href=""> 4 </a>
+                        <a href="#">
+                            4
+                        </a>
                     </li>
                 </div>
                 <div class="col-4">
                     <li class="disable">
-                        <a href=""> 5 </a>
+                        <a href="#">
+                            5
+                        </a>
                     </li>
                 </div>
                 <div class="col-4">
                     <li class="">
-                        <a href=""> 6 </a>
+                        <a href="#">
+                            6
+                        </a>
                     </li>
                 </div>
             </div>

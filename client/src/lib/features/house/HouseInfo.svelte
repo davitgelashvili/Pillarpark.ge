@@ -3,19 +3,19 @@
         <div class="col-2 col-md-1">
             <ul class="house__floors">
                 <li class="house__floors--item">
-                    <a href="" class="house__floors--link">
+                    <a href="#" class="house__floors--link">
                         1
                         <p class="house__floors--text">სართული</p>
                     </a>
                 </li>
                 <li class="house__floors--item">
-                    <a href="" class="house__floors--link active">
+                    <a href="#" class="house__floors--link active">
                         2
                         <p class="house__floors--text">სართული</p>
                     </a>
                 </li>
                 <li class="house__floors--item">
-                    <a href="" class="house__floors--link">
+                    <a href="#" class="house__floors--link">
                         3
                         <p class="house__floors--text">სართული</p>
                     </a>
@@ -37,13 +37,12 @@
                         <span class="switch__text"> 2D </span>
                     </label>
                 </div>
-                <img src="/images/home.png" class="house__cover--img" />
+                <img src="/images/home.png" class="house__cover--img" alt="" />
             </div>
             <div class="house__location d-none d-lg-block">
                 <img
                     src="/images/house_location.png"
-                    class="house__location--img"
-                />
+                    class="house__location--img" alt="" />
             </div>
         </div>
         <div class="col-lg-4">
@@ -72,8 +71,7 @@
                     <div class="house__location d-block d-lg-none">
                         <img
                             src="/images/house_location.png"
-                            class="house__location--img"
-                        />
+                            class="house__location--img" alt="" />
                     </div>
                 </div>
                 <div class="house__price">
@@ -102,53 +100,48 @@
                         <p class="house__download--title">
                             ჩამოტვირთე გეგმა
                         </p>
-                        <a href="" class="house__download--link">
+                        <a href="#" class="house__download--link">
                             <img
                                 src="/images/download.svg"
-                                class="house__download--icon"
-                            />
+                                class="house__download--icon" alt="" />
                         </a>
                     </li>
                     <li
                         class="house__download--item d-flex align-items-center"
                     >
                         <p class="house__download--title">გაზიარება:</p>
-                        <a href="" class="house__download--link">
+                        <a href="#" class="house__download--link">
                             <img
                                 src="/images/fb.svg"
-                                class="house__download--icon"
-                            />
+                                class="house__download--icon" alt="" />
                         </a>
-                        <a href="" class="house__download--link">
+                        <a href="#" class="house__download--link">
                             <img
                                 src="/images/tw.svg"
-                                class="house__download--icon"
-                            />
+                                class="house__download--icon" alt="" />
                         </a>
                     </li>
                 </ul>
                 <ul class="house__contact">
                     <li class="house__contact--item">
-                        <a href="" class="house__contact--link">
+                        <a href="#" class="house__contact--link">
                             <img
                                 src="/images/call.svg"
-                                class="house__contact--icon"
-                            />
+                                class="house__contact--icon" alt="" />
                             (032) 2-100-100
                         </a>
                     </li>
                     <li class="house__contact--item">
-                        <a href="" class="house__contact--link">
+                        <a href="#" class="house__contact--link">
                             <img
                                 src="/images/mail.svg"
-                                class="house__contact--icon"
-                            />
+                                class="house__contact--icon" alt="" />
                             info@pillarpark.ge
                         </a>
                     </li>
                 </ul>
                 <div>
-                    <img src="/images/gegma.png" class="house__gegma" />
+                    <img src="/images/gegma.png" class="house__gegma" alt="" />
                 </div>
             </div>
         </div>

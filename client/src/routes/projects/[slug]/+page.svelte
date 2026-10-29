@@ -3,9 +3,9 @@
     import ProjectDesc from '#lib/features/projects/detail/ProjectDesc.svelte';
     import ProjectGallery from '#lib/features/projects/detail/ProjectGallery.svelte';
     import ProjectConditions from '#lib/features/projects/detail/ProjectConditions.svelte';
-    import ProjectBlockSelect from '#lib/features/projects/detail/ProjectBlockSelect.svelte';
-    import Expert from '#lib/features/main/Expert/Expert.svelte';
-    import Map from '#lib/features/main/Map/Map.svelte';
+    import SelectionCover from '#lib/components/SelectionCover/SelectionCover.svelte';
+    import Expert from '#lib/components/Expert/Expert.svelte';
+    import Map from '#lib/components/Map/Map.svelte';
 </script>
 
 <DetailSlider />
@@ -15,6 +15,6 @@
     <ProjectGallery />
     <ProjectConditions />
     <Expert />
-    <ProjectBlockSelect />
+    <SelectionCover />
     <Map />
 </main>

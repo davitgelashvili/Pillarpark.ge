@@ -4,7 +4,7 @@
 </script>
 
     <div class="selectfloor__area d-none d-md-block">
-        <img src="/images/floor.jpg" class="selectfloor__area--cover"/>
+        <img src="/images/floor.jpg" class="selectfloor__area--cover" alt="" />
         
         
 <svg class="selectfloor__area--svg" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4000 1500">

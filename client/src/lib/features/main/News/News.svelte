@@ -38,7 +38,7 @@
             <SectionTitle title="სიახლეები" class="justify-content-between align-items-center">
 <div class="d-flex align-items-center">
                     <li class="section-view">
-                        <a href=""> ყველა </a>
+                        <a href="#"> ყველა </a>
                     </li>
                     <div class="d-none d-md-flex align-items-center">
                         <button
@@ -46,14 +46,14 @@
                             onclick={() =>
                                 getSlider().trigger("prev.owl.carousel")}
                         >
-                            <img src="/images/slider/prev.svg" />
+                            <img src="/images/slider/prev.svg" alt="" />
                         </button>
                         <button
                             class="section-slider--btn next news__slider--next owl--next d-flex align-items-center justify-content-center"
                             onclick={() =>
                                 getSlider().trigger("next.owl.carousel")}
                         >
-                            <img src="/images/slider/next.svg" />
+                            <img src="/images/slider/next.svg" alt="" />
                         </button>
                     </div>
                 </div>

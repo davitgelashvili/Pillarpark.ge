@@ -6,8 +6,7 @@
                     <div class="news__item--cover news__list--cover">
                         <img
                             src="/images/slider/slider1.png"
-                            class="news__item--img"
-                        />
+                            class="news__item--img" alt="" />
                     </div>
                     <h1 class="news__item--title">
                         ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს
@@ -16,7 +15,7 @@
                     <li class="news__item--more">
                         <a href="/news/1" class="news__item--link">
                             გაიგე მეტი
-                            <img src="/images/more.svg" />
+                            <img src="/images/more.svg" alt="" />
                         </a>
                     </li>
                 </div>
@@ -27,8 +26,7 @@
                     <div class="news__item--cover news__list--cover">
                         <img
                             src="/images/slider/slider1.png"
-                            class="news__item--img"
-                        />
+                            class="news__item--img" alt="" />
                     </div>
                     <h1 class="news__item--title">
                         ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს
@@ -37,7 +35,7 @@
                     <li class="news__item--more">
                         <a href="/news/1" class="news__item--link">
                             გაიგე მეტი
-                            <img src="/images/more.svg" />
+                            <img src="/images/more.svg" alt="" />
                         </a>
                     </li>
                 </div>
@@ -48,8 +46,7 @@
                     <div class="news__item--cover news__list--cover">
                         <img
                             src="/images/slider/slider1.png"
-                            class="news__item--img"
-                        />
+                            class="news__item--img" alt="" />
                     </div>
                     <h1 class="news__item--title">
                         ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს
@@ -58,7 +55,7 @@
                     <li class="news__item--more">
                         <a href="/news/1" class="news__item--link">
                             გაიგე მეტი
-                            <img src="/images/more.svg" />
+                            <img src="/images/more.svg" alt="" />
                         </a>
                     </li>
                 </div>

@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-4">
                 <li class="disable">
-                    <a href="">
+                    <a href="#">
                         1
                     </a>
                 </li>
@@ -23,28 +23,28 @@
             </div>
             <div class="col-4">
                 <li class="">
-                    <a href="">
+                    <a href="#">
                         3
                     </a>
                 </li>
             </div>
             <div class="col-4">
                 <li class="">
-                    <a href="">
+                    <a href="#">
                         4
                     </a>
                 </li>
             </div>
             <div class="col-4">
                 <li class="disable">
-                    <a href="">
+                    <a href="#">
                         5
                     </a>
                 </li>
             </div>
             <div class="col-4">
                 <li class="">
-                    <a href="">
+                    <a href="#">
                         6
                     </a>
                 </li>

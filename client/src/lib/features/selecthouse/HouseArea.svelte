@@ -4,7 +4,7 @@
 
 <div class="container pl-container">
   <div class="selecthouse__area d-none d-md-block">
-    <img src="/images/projects/satesto-sartuli.png" class="selecthouse__area--cover"/>
+    <img src="/images/projects/satesto-sartuli.png" class="selecthouse__area--cover" alt="" />
   
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1034.53 463.82">

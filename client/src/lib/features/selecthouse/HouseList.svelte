@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="projects__item--cover">
-                        <img src="/images/post.png" />
+                        <img src="/images/post.png" alt="" />
                     </div>
                 </div>
                 <div class="col-12">
@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="projects__item--cover">
-                        <img src="/images/post.png" />
+                        <img src="/images/post.png" alt="" />
                     </div>
                 </div>
                 <div class="col-12">

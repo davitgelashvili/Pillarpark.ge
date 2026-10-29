@@ -17,5 +17,5 @@
 {#if svg}
     <span style="display: contents" role="img" aria-label={alt}>{@html svg}</span>
 {:else}
-    <img {src} {alt} />
+    <img {src} {alt}  />
 {/if}

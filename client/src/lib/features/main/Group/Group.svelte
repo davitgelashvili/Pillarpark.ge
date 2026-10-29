@@ -1,5 +1,7 @@
 <script lang="ts">
     import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
+    import GroupStat from './GroupStat.svelte';
+    import { groupStats } from './Group.ts';
 </script>
 
 <div class="group">
@@ -19,39 +21,15 @@
                     </div>
                     <div class="group__footer">
                         <div class="row">
-                            <div class="col-md-4">
-                                <div class="group__footer--item d-md-block d-flex align-items-center justify-content-between">
-                                    <div class="d-flex d-md-block">
-                                        <img src="/images/group/rule.svg" class="group__footer--icon"/>
-                                        <p class="group__footer--count">24 000 000+</p>
-                                    </div>
-                                    <p class="group__footer--title">ჯამური ინვესტიცია</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="group__footer--item d-md-block d-flex align-items-center justify-content-between">
-                                    <div class="d-flex d-md-block">
-                                        <img src="/images/group/tree.svg" class="group__footer--icon"/>
-                                        <p class="group__footer--count">10 000+</p>
-                                    </div>
-                                    <p class="group__footer--title">კმაყოფილი მომხარებელი</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="group__footer--item d-md-block d-flex align-items-center justify-content-between">
-                                    <div class="d-flex d-md-block">
-                                        <img src="/images/group/door.svg" class="group__footer--icon"/>
-                                        <p class="group__footer--count">10</p>
-                                    </div>
-                                    <p class="group__footer--title">მიმდინარე პროექტი</p>
-                                </div>
-                            </div>
+                            {#each groupStats as item}
+                                <GroupStat {item} />
+                            {/each}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 d-flex justify-content-lg-end align-items-start justify-content-center">
-                <!-- <img src="/images/group_cover.svg" class="group__cover imgtosvg" /> -->
+                <!-- <img src="/images/group_cover.svg" class="group__cover imgtosvg" alt="" /> -->
                 <svg id="Layer_1" data-name="Layer 1" class="group__cover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.8 123.19">
                   <defs>
                     <style>

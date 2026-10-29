@@ -29,14 +29,14 @@
                             onclick={() =>
                                 getSlider().trigger("prev.owl.carousel")}
                         >
-                            <img src="/images/slider/prev.svg" />
+                            <img src="/images/slider/prev.svg" alt="" />
                         </button>
                         <button
                             class="section-slider--btn next projects__slider--next owl--next d-flex align-items-center justify-content-center"
                             onclick={() =>
                                 getSlider().trigger("next.owl.carousel")}
                         >
-                            <img src="/images/slider/next.svg" />
+                            <img src="/images/slider/next.svg" alt="" />
                         </button>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
             >
                 <div class="projects__item house__otherhouse--item">
                     <div class="projects__item--cover house__otherhouse--cover">
-                        <img src="/images/home.png" />
+                        <img src="/images/home.png" alt="" />
                     </div>
                     <div class="projects__item--body house__otherhouse--body">
                         <div
@@ -55,7 +55,7 @@
                         >
                             <div>
                                 <h1 class="projects__item--title">
-                                    <a href="" class="house__otherhouse--link">
+                                    <a href="#" class="house__otherhouse--link">
                                         ბინა 10
                                     </a>
                                 </h1>
@@ -78,7 +78,7 @@
                 <!-- item end -->
                 <div class="projects__item house__otherhouse--item">
                     <div class="projects__item--cover house__otherhouse--cover">
-                        <img src="/images/home.png" />
+                        <img src="/images/home.png" alt="" />
                     </div>
                     <div class="projects__item--body house__otherhouse--body">
                         <div
@@ -86,7 +86,7 @@
                         >
                             <div>
                                 <h1 class="projects__item--title">
-                                    <a href="" class="house__otherhouse--link">
+                                    <a href="#" class="house__otherhouse--link">
                                         ბინა 10
                                     </a>
                                 </h1>
@@ -109,7 +109,7 @@
                 <!-- item end -->
                 <div class="projects__item house__otherhouse--item">
                     <div class="projects__item--cover house__otherhouse--cover">
-                        <img src="/images/home.png" />
+                        <img src="/images/home.png" alt="" />
                     </div>
                     <div class="projects__item--body house__otherhouse--body">
                         <div
@@ -117,7 +117,7 @@
                         >
                             <div>
                                 <h1 class="projects__item--title">
-                                    <a href="" class="house__otherhouse--link">
+                                    <a href="#" class="house__otherhouse--link">
                                         ბინა 10
                                     </a>
                                 </h1>
@@ -140,7 +140,7 @@
                 <!-- item end -->
                 <div class="projects__item house__otherhouse--item">
                     <div class="projects__item--cover house__otherhouse--cover">
-                        <img src="/images/home.png" />
+                        <img src="/images/home.png" alt="" />
                     </div>
                     <div class="projects__item--body house__otherhouse--body">
                         <div
@@ -148,7 +148,7 @@
                         >
                             <div>
                                 <h1 class="projects__item--title">
-                                    <a href="" class="house__otherhouse--link">
+                                    <a href="#" class="house__otherhouse--link">
                                         ბინა 10
                                     </a>
                                 </h1>

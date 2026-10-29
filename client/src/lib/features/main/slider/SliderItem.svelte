@@ -5,7 +5,7 @@
 </script>
 
 <div class="slider__item">
-    <img src={item.image} class="slider__item--cover" />
+    <img src={item.image} class="slider__item--cover" alt="" />
     <div class="slider__item--body">
         <div class="container pl-container">
             <div class="d-flex flex-column align-items-end">
