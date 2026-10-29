@@ -1,3 +1,4 @@
+import { asset } from '$app/paths';
 export type FooterContact = {
     icon: string,
     label: string,
@@ -14,19 +15,19 @@ export type FooterSocial = {
 
 export const footerContacts: FooterContact[] = [
     {
-        icon: '/images/footer/call.svg',
+        icon: asset('images/footer/call.svg'),
         label: 'ტელეფონი:',
         value: '(032) 2-100-100',
         href: 'tel:+995322100100'
     },
     {
-        icon: '/images/footer/mail.svg',
+        icon: asset('images/footer/mail.svg'),
         label: 'ელ.ფოსტა:',
         value: 'info@pillarpark.ge',
         href: 'mailto:info@pillarpark.ge'
     },
     {
-        icon: '/images/footer/location_on.svg',
+        icon: asset('images/footer/location_on.svg'),
         label: 'მისამართი:',
         value: 'თბ. კრწანისის 24ა',
         href: 'https://www.google.com/maps/search/?api=1&query=Pillar+Park',
@@ -35,8 +36,8 @@ export const footerContacts: FooterContact[] = [
 ]
 
 export const footerSocials: FooterSocial[] = [
-    { icon: '/images/footer/fb.svg', label: 'Facebook', href: '#' },
-    { icon: '/images/footer/yt.svg', label: 'YouTube', href: '#' },
-    { icon: '/images/footer/in.svg', label: 'LinkedIn', href: '#' },
-    { icon: '/images/footer/ig.svg', label: 'Instagram', href: '#' }
+    { icon: asset('images/footer/fb.svg'), label: 'Facebook', href: '#' },
+    { icon: asset('images/footer/yt.svg'), label: 'YouTube', href: '#' },
+    { icon: asset('images/footer/in.svg'), label: 'LinkedIn', href: '#' },
+    { icon: asset('images/footer/ig.svg'), label: 'Instagram', href: '#' }
 ]

@@ -1,4 +1,5 @@
 <script>
+	import { asset } from '$app/paths';
     import Button from "../ui/Button.svelte";
     import Select from "../ui/Select.svelte";
 </script>
@@ -26,6 +27,6 @@
         <div class="expert__form--item">
             <Select name="ოთახები" data={[]} />
         </div>
-        <Button title="ძებნა" icon="/images/search.svg" />
+        <Button title="ძებნა" icon={asset('images/search.svg')} />
     </form>
 </div>

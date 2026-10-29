@@ -1,10 +1,13 @@
+<script>
+	import { asset, resolve } from '$app/paths';
+</script>
         <div class="container d-block d-md-none">
     <div class="projects__list">
         <div class="projects__item">
             <div class="row">
                 <div class="col-12">
                     <div class="projects__item--cover">
-                        <img src="/images/post.png" alt="" />
+                        <img src={asset('images/post.png')} alt="" />
                     </div>
                 </div>
                 <div class="col-12">
@@ -21,7 +24,7 @@
                             <li>ფასი: $104,422 ($105/მ2)</li>
                         </ul>
                         <li class="projects__item--more">
-                            <a href="/projects/digomi-8" class="projects__item--link">არჩევა</a>
+                            <a href={resolve('/projects/digomi-8')} class="projects__item--link">არჩევა</a>
                         </li>
                     </div>
                 </div>
@@ -32,7 +35,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="projects__item--cover">
-                        <img src="/images/post.png" alt="" />
+                        <img src={asset('images/post.png')} alt="" />
                     </div>
                 </div>
                 <div class="col-12">
@@ -49,7 +52,7 @@
                             <li>ფასი: $104,422 ($105/მ2)</li>
                         </ul>
                         <li class="projects__item--more">
-                            <a href="/projects/digomi-8" class="projects__item--link">არჩევა</a>
+                            <a href={resolve('/projects/digomi-8')} class="projects__item--link">არჩევა</a>
                         </li>
                     </div>
                 </div>

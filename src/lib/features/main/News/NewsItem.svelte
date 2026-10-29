@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset, resolve } from '$app/paths';
     import type { News } from "./News";
 
     let { item }: { item: News } = $props();
@@ -12,9 +13,9 @@
         {item.title}
     </h1>
     <li class="news__item--more">
-        <a href={`/news/${item.slug}`} class="news__item--link">
+        <a href={resolve(`/news/${item.slug}`)} class="news__item--link">
             გაიგე მეტი
-            <img src="/images/more.svg" alt="" />
+            <img src={asset('images/more.svg')} alt="" />
         </a>
     </li>
 </div>

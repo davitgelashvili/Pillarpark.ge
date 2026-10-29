@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset, resolve } from '$app/paths';
     import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
     import { onMount } from "svelte";
     import ProjectItem from "./ProjectItem.svelte";
@@ -39,7 +40,7 @@
             <SectionTitle title="ჩვენი პროექტები" class="justify-content-between align-items-center">
 <div class="d-flex align-items-center">
                     <li class="section-view">
-                        <a href="/projects"> ყველა </a>
+                        <a href={resolve('/projects')}> ყველა </a>
                     </li>
                     <div class="d-none d-md-flex align-items-center">
                         <button
@@ -47,14 +48,14 @@
                             onclick={() =>
                                 getSlider().trigger("prev.owl.carousel")}
                         >
-                            <img src="/images/slider/prev.svg" alt="წინა" />
+                            <img src={asset('images/slider/prev.svg')} alt="წინა" />
                         </button>
                         <button
                             class="section-slider--btn next projects__slider--next owl--next d-flex align-items-center justify-content-center"
                             onclick={() =>
                                 getSlider().trigger("next.owl.carousel")}
                         >
-                            <img src="/images/slider/next.svg" alt="შემდეგი" />
+                            <img src={asset('images/slider/next.svg')} alt="შემდეგი" />
                         </button>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset } from '$app/paths';
     import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
     import { onMount } from "svelte";
     import NewsItem from "./NewsItem.svelte";
@@ -46,14 +47,14 @@
                             onclick={() =>
                                 getSlider().trigger("prev.owl.carousel")}
                         >
-                            <img src="/images/slider/prev.svg" alt="" />
+                            <img src={asset('images/slider/prev.svg')} alt="" />
                         </button>
                         <button
                             class="section-slider--btn next news__slider--next owl--next d-flex align-items-center justify-content-center"
                             onclick={() =>
                                 getSlider().trigger("next.owl.carousel")}
                         >
-                            <img src="/images/slider/next.svg" alt="" />
+                            <img src={asset('images/slider/next.svg')} alt="" />
                         </button>
                     </div>
                 </div>

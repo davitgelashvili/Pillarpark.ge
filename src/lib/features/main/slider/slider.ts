@@ -1,3 +1,4 @@
+import { asset } from '$app/paths';
 export type Slider = {
     image: string,
     title: string,
@@ -6,12 +7,12 @@ export type Slider = {
 
 export const sliderData: Slider[] = [
     {
-        image: '/images/slider.png',
+        image: asset('images/slider.png'),
         title: 'Pillar Park',
         description: 'ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია...'
     },
     {
-        image: '/images/slider.png',
+        image: asset('images/slider.png'),
         title: 'Pillar Park',
         description: 'ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია...'
     }

@@ -1,3 +1,6 @@
+<script>
+	import { asset, resolve } from '$app/paths';
+</script>
 <div class="news__list">
     <div class="container pl-container">
         <div class="row">
@@ -5,7 +8,7 @@
                 <div class="news__item">
                     <div class="news__item--cover news__list--cover">
                         <img
-                            src="/images/slider/slider1.png"
+                            src={asset('images/slider/slider1.png')}
                             class="news__item--img" alt="" />
                     </div>
                     <h1 class="news__item--title">
@@ -13,9 +16,9 @@
                         შეუძლია მკითხველის ყურადღება...
                     </h1>
                     <li class="news__item--more">
-                        <a href="/news/1" class="news__item--link">
+                        <a href={resolve('/news/1')} class="news__item--link">
                             გაიგე მეტი
-                            <img src="/images/more.svg" alt="" />
+                            <img src={asset('images/more.svg')} alt="" />
                         </a>
                     </li>
                 </div>
@@ -25,7 +28,7 @@
                 <div class="news__item">
                     <div class="news__item--cover news__list--cover">
                         <img
-                            src="/images/slider/slider1.png"
+                            src={asset('images/slider/slider1.png')}
                             class="news__item--img" alt="" />
                     </div>
                     <h1 class="news__item--title">
@@ -33,9 +36,9 @@
                         შეუძლია მკითხველის ყურადღება...
                     </h1>
                     <li class="news__item--more">
-                        <a href="/news/1" class="news__item--link">
+                        <a href={resolve('/news/1')} class="news__item--link">
                             გაიგე მეტი
-                            <img src="/images/more.svg" alt="" />
+                            <img src={asset('images/more.svg')} alt="" />
                         </a>
                     </li>
                 </div>
@@ -45,7 +48,7 @@
                 <div class="news__item">
                     <div class="news__item--cover news__list--cover">
                         <img
-                            src="/images/slider/slider1.png"
+                            src={asset('images/slider/slider1.png')}
                             class="news__item--img" alt="" />
                     </div>
                     <h1 class="news__item--title">
@@ -53,9 +56,9 @@
                         შეუძლია მკითხველის ყურადღება...
                     </h1>
                     <li class="news__item--more">
-                        <a href="/news/1" class="news__item--link">
+                        <a href={resolve('/news/1')} class="news__item--link">
                             გაიგე მეტი
-                            <img src="/images/more.svg" alt="" />
+                            <img src={asset('images/more.svg')} alt="" />
                         </a>
                     </li>
                 </div>

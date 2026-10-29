@@ -1,19 +1,22 @@
+<script>
+	import { asset } from '$app/paths';
+</script>
 <div class="container pl-container">
     <div class="detail">
         <div class="detail__head d-flex justify-content-between align-items-center">
             <a href="#" class="detail__head--back">
-                <img src="/images/back_icon.svg" alt="" />
+                <img src={asset('images/back_icon.svg')} alt="" />
                 უკან დაბრუნება
             </a>
             <button class="detail__head--share">
-                <img src="/images/share.svg" alt="" />
+                <img src={asset('images/share.svg')} alt="" />
                 გაზიარება
             </button>
         </div>
         <h1 class="detail__title">Visa-სა და Spaces-ის შეთავაზება Pillar park dighomiს მფლობელებისთვის</h1>
         <p class="detail__date">18 ოქტომბერი, 2022</p>
         <figure class="detail__cover">
-            <img src="/images/post.png" class="detail__cover--img" alt="" />
+            <img src={asset('images/post.png')} class="detail__cover--img" alt="" />
         </figure>
         <div class="detail__body">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus adipisci quas necessitatibus beatae unde perferendis, vel esse voluptatibus labore ad nihil, nobis molestiae pariatur iste odio aperiam totam, sapiente ea placeat voluptatum! Consectetur quasi provident suscipit rerum enim id impedit nobis labore nulla numquam. Nobis sequi cupiditate sapiente suscipit minima animi, est repellendus ab eum impedit, dolorum molestiae quam odit eaque dignissimos saepe illum laboriosam unde. Quaerat nihil distinctio optio? Fugit consectetur optio atque ipsum autem, nostrum dolorum iusto. Reprehenderit a optio ullam maxime rerum numquam, unde iste repudiandae illo eum magnam officia neque consequuntur, tempore, culpa voluptatibus ab nesciunt molestias animi minima inventore tempora obcaecati! Amet tenetur numquam, laudantium animi eveniet officia in deleniti molestias eligendi et voluptate. Hic provident animi enim ut velit, perferendis iure qui possimus cumque ipsam quaerat necessitatibus ea. At ea, maxime qui sunt voluptas cum dolorum nostrum similique natus ratione sequi fugiat unde illum. Beatae omnis sint molestias, deleniti neque doloremque odio est laborum iste nemo odit, harum et culpa quos vel officia assumenda quas recusandae quis, animi alias facilis ea atque. Alias, perspiciatis animi? Itaque, necessitatibus iste. Sit a, at dolorem laudantium facilis non. Quasi veritatis, velit libero perspiciatis ad temporibus commodi suscipit?

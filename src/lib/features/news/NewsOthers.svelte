@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset } from '$app/paths';
     import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
 </script>
 
@@ -13,10 +14,10 @@
                     </li>
                     <div class="d-none d-md-flex align-items-center">
                         <button class="section-slider--btn prev news__slider--prev owl--prev d-flex align-items-center justify-content-center">
-                            <img src="/images/slider/prev.svg" alt="" />
+                            <img src={asset('images/slider/prev.svg')} alt="" />
                         </button>
                         <button class="section-slider--btn next news__slider--next owl--next d-flex align-items-center justify-content-center">
-                            <img src="/images/slider/next.svg" alt="" />
+                            <img src={asset('images/slider/next.svg')} alt="" />
                         </button>
                     </div>
                 </div>
@@ -24,7 +25,7 @@
             <div class="news__slider owl-carousel">
                 <div class="news__item">
                     <div class="news__item--cover news__slider--cover">
-                        <img src="/images/slider/slider1.png" class="news__item--img" alt="" />
+                        <img src={asset('images/slider/slider1.png')} class="news__item--img" alt="" />
                     </div>
                     <a href="#" class="news__item--link flex-column">
                         <h1 class="news__item--title"> 
@@ -37,7 +38,7 @@
                 </div><!-- item end -->
                 <div class="news__item">
                     <div class="news__item--cover news__slider--cover">
-                        <img src="/images/slider/slider1.png" class="news__item--img" alt="" />
+                        <img src={asset('images/slider/slider1.png')} class="news__item--img" alt="" />
                     </div>
                     <a href="#" class="news__item--link flex-column">
                         <h1 class="news__item--title"> 
@@ -50,7 +51,7 @@
                 </div><!-- item end -->
                 <div class="news__item">
                     <div class="news__item--cover news__slider--cover">
-                        <img src="/images/slider/slider1.png" class="news__item--img" alt="" />
+                        <img src={asset('images/slider/slider1.png')} class="news__item--img" alt="" />
                     </div>
                     <a href="#" class="news__item--link flex-column">
                         <h1 class="news__item--title"> 
@@ -63,7 +64,7 @@
                 </div><!-- item end -->
                 <div class="news__item">
                     <div class="news__item--cover news__slider--cover">
-                        <img src="/images/slider/slider1.png" class="news__item--img" alt="" />
+                        <img src={asset('images/slider/slider1.png')} class="news__item--img" alt="" />
                     </div>
                     <a href="#" class="news__item--link flex-column">
                         <h1 class="news__item--title"> 

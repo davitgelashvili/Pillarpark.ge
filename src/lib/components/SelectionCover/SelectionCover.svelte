@@ -1,13 +1,14 @@
 <script lang="ts">
+	import { asset, resolve } from '$app/paths';
     import { goto } from '$app/navigation';
 </script>
 
 <div class="selection__cover">
-    <!-- <img src="/images/selection_cover.png" class="selection__cover--img" alt="" /> -->
-    <img src="/images/projects/projects.svg" class="selection__cover--img" alt="" />
+    <!-- <img src={asset('images/selection_cover.png')} class="selection__cover--img" alt="" /> -->
+    <img src={asset('images/projects/projects.svg')} class="selection__cover--img" alt="" />
     
     <svg class="selection__cover--svg" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2000 1059.93">
-        <polygon class="selection__cover--block" onclick={() => goto('/selectfloor')} points="1378.83 296.11 1427.27 240.19 1530.01 286.51 1530.42 293.61 1532.9 290.06 1571.82 311.75 1615.96 327.93 1738.83 369.1 1719.01 434.22 1691.1 467.58 1675.41 446.69 1590.69 456.59 1443.67 403.34 1448.63 368.44 1373.43 341.47 1378.83 296.11"/>
+        <polygon class="selection__cover--block" onclick={() => goto(resolve('/selectfloor'))} points="1378.83 296.11 1427.27 240.19 1530.01 286.51 1530.42 293.61 1532.9 290.06 1571.82 311.75 1615.96 327.93 1738.83 369.1 1719.01 434.22 1691.1 467.58 1675.41 446.69 1590.69 456.59 1443.67 403.34 1448.63 368.44 1373.43 341.47 1378.83 296.11"/>
         <g class="selection__cover--text">
             <path d="m1512.25,371.08h-6.38l-1.2,4.46h-3.82l5.99-19.25h4.54l5.96,19.25h-3.9l-1.2-4.46Zm-.75-2.79l-2.45-9.19-2.45,9.19h4.9Z"/>
             <g>

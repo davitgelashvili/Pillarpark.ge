@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset } from '$app/paths';
     import Icon from '#lib/components/Icon/Icon.svelte';
 </script>
 
@@ -48,7 +49,7 @@
             <div class="col-12">
                 <button class="ordercall__form--btn d-flex align-items-center justify-content-center">
                     გაგზავნა
-                    <Icon src="/images/send_icon.svg" />
+                    <Icon src={asset('images/send_icon.svg')} />
                 </button>
             </div>
         </div>

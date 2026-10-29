@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset } from '$app/paths';
     import type { Project } from "./Projects";
 
     let { item }: { item: Project } = $props();
@@ -15,7 +16,7 @@
     </div>
     <h1 class="projects__slider--title">{item.title}</h1>
     <p class="projects__slider--location">
-        <img src="/images/article_location.svg" alt="" />
+        <img src={asset('images/article_location.svg')} alt="" />
         {item.location}
     </p>
 </div>

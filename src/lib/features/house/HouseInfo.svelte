@@ -1,3 +1,6 @@
+<script>
+	import { asset } from '$app/paths';
+</script>
 <div class="container pl-container">
     <div class="row">
         <div class="col-2 col-md-1">
@@ -37,11 +40,11 @@
                         <span class="switch__text"> 2D </span>
                     </label>
                 </div>
-                <img src="/images/home.png" class="house__cover--img" alt="" />
+                <img src={asset('images/home.png')} class="house__cover--img" alt="" />
             </div>
             <div class="house__location d-none d-lg-block">
                 <img
-                    src="/images/house_location.png"
+                    src={asset('images/house_location.png')}
                     class="house__location--img" alt="" />
             </div>
         </div>
@@ -70,7 +73,7 @@
                     </div>
                     <div class="house__location d-block d-lg-none">
                         <img
-                            src="/images/house_location.png"
+                            src={asset('images/house_location.png')}
                             class="house__location--img" alt="" />
                     </div>
                 </div>
@@ -102,7 +105,7 @@
                         </p>
                         <a href="#" class="house__download--link">
                             <img
-                                src="/images/download.svg"
+                                src={asset('images/download.svg')}
                                 class="house__download--icon" alt="" />
                         </a>
                     </li>
@@ -112,12 +115,12 @@
                         <p class="house__download--title">გაზიარება:</p>
                         <a href="#" class="house__download--link">
                             <img
-                                src="/images/fb.svg"
+                                src={asset('images/fb.svg')}
                                 class="house__download--icon" alt="" />
                         </a>
                         <a href="#" class="house__download--link">
                             <img
-                                src="/images/tw.svg"
+                                src={asset('images/tw.svg')}
                                 class="house__download--icon" alt="" />
                         </a>
                     </li>
@@ -126,7 +129,7 @@
                     <li class="house__contact--item">
                         <a href="#" class="house__contact--link">
                             <img
-                                src="/images/call.svg"
+                                src={asset('images/call.svg')}
                                 class="house__contact--icon" alt="" />
                             (032) 2-100-100
                         </a>
@@ -134,14 +137,14 @@
                     <li class="house__contact--item">
                         <a href="#" class="house__contact--link">
                             <img
-                                src="/images/mail.svg"
+                                src={asset('images/mail.svg')}
                                 class="house__contact--icon" alt="" />
                             info@pillarpark.ge
                         </a>
                     </li>
                 </ul>
                 <div>
-                    <img src="/images/gegma.png" class="house__gegma" alt="" />
+                    <img src={asset('images/gegma.png')} class="house__gegma" alt="" />
                 </div>
             </div>
         </div>

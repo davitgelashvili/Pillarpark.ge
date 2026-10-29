@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
     import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
 
     let { title = '' }: { title?: string } = $props();
@@ -20,7 +21,7 @@
                 </div>
                 <div class="col-4">
                     <li class="">
-                        <a href="/selecthouse">
+                        <a href={resolve('/selecthouse')}>
                             2
                         </a>
                     </li>

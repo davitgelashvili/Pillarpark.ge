@@ -1,3 +1,4 @@
+import { asset } from '$app/paths';
 export type ProjectEntry = {
     slug: string,
     image: string,
@@ -12,7 +13,7 @@ const description = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fu
 export const projectsList: ProjectEntry[] = [
     {
         slug: 'digomi-8',
-        image: '/images/projects/571X492-.png',
+        image: asset('images/projects/571X492-.png'),
         title: 'Pillar Park დიღომი 8',
         location: 'თბილისი, დიღმის 8',
         status: 80,
@@ -20,7 +21,7 @@ export const projectsList: ProjectEntry[] = [
     },
     {
         slug: 'samgori',
-        image: '/images/projects/samgori.jpeg',
+        image: asset('images/projects/samgori.jpeg'),
         title: 'Pillar Park სამგორი',
         location: 'თბილისი, დიღმის 8',
         status: 80,

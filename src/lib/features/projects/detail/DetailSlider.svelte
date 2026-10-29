@@ -1,7 +1,10 @@
+<script>
+	import { asset } from '$app/paths';
+</script>
 <div class="slider projects">
     <div class="slider__container detail">
         <div class="slider__item" style="position: fixed; top: 0;">
-            <img src="/images/projects/5.png" class="slider__item--cover" alt="Pillar Park დიღომი 8" />
+            <img src={asset('images/projects/5.png')} class="slider__item--cover" alt="Pillar Park დიღომი 8" />
         </div><!-- item end -->
         <div class="detail__slider--body">
             <div class="container pl-container">

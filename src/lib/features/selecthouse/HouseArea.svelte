@@ -1,10 +1,11 @@
 <script lang="ts">
+	import { asset, resolve } from '$app/paths';
     import { goto } from '$app/navigation';
 </script>
 
 <div class="container pl-container">
   <div class="selecthouse__area d-none d-md-block">
-    <img src="/images/projects/satesto-sartuli.png" class="selecthouse__area--cover" alt="" />
+    <img src={asset('images/projects/satesto-sartuli.png')} class="selecthouse__area--cover" alt="" />
   
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1034.53 463.82">
@@ -139,7 +140,7 @@
       </defs>
 
       <g id="Layer_3" data-name="Layer 3">
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="19.61 51.9 101.64 47.29 100.41 197.59 125.65 197.42 126.23 221.54 100.24 221.54 99.95 414.58 17.58 415.41 19.61 51.9"/>
           <g>
             <g>
@@ -199,7 +200,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="360.64 36.83 475.47 32.21 473.24 415.79 474.31 450.58 391.66 450.58 391.66 307.98 393.15 154.57 364.58 155.56 363.67 83.77 363.38 77.25 361.19 77.33 360.64 36.83"/>
           <g>
             <g>
@@ -219,7 +220,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="559.66 275.98 582.56 276.32 582.68 299.15 559.85 299.19 561.19 451.05 479.18 450.72 480.67 46.49 480.23 31.83 559.69 28.45 559.66 275.98"/>
           <g>
             <g>
@@ -239,7 +240,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="562.79 302.77 647.73 302.82 647.6 450.91 564.09 450.87 562.79 302.77"/>
           <g>
             <g>
@@ -259,7 +260,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="562.85 28.21 678.33 23.25 675.33 155.81 644.78 155.77 647.16 272.29 563.16 272.07 562.85 28.21"/>
           <g>
             <g>
@@ -279,7 +280,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="682.06 23.54 822.09 17.76 846.2 22.54 847.11 194.31 679.43 194.33 682.06 23.54"/>
           <g>
             <g>
@@ -299,7 +300,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="850.89 22.59 933.04 38.44 935.67 194.38 850.87 194.25 850.89 22.59"/>
           <g>
             <g>
@@ -319,7 +320,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="936.57 39.14 1018.79 55.12 1021.25 345.39 960.11 415.86 937.81 415.9 936.57 39.14"/>
           <g>
             <g>
@@ -339,7 +340,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="853.34 224.51 935.65 224.49 934.23 415.92 850.84 415.85 853.34 224.51"/>
           <g>
             <g>
@@ -359,7 +360,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="679.17 224.52 764.05 224.56 764.13 293.81 826.84 293.41 824.07 415.57 679.36 415.46 679.17 224.52"/>
           <g>
             <g>
@@ -379,7 +380,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="106.11 47.87 188.1 44.07 188.13 194.37 103.25 194.4 106.11 47.87"/>
           <g>
             <g>
@@ -399,7 +400,7 @@
             </g>
           </g>
         </g>
-        <g class="selecthouse__area--group active" onclick={() => goto('/house')}>
+        <g class="selecthouse__area--group active" onclick={() => goto(resolve('/house'))}>
           <polygon class="cls-1" points="191.64 43.95 357.16 36.9 357.04 77.74 356.9 86.76 360.89 86.67 359.65 194.26 191.63 194.31 191.64 43.95"/>
           <g>
             <g>

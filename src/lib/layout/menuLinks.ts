@@ -1,13 +1,14 @@
+import { resolve } from '$app/paths';
 export type MenuLink = {
     label: string,
     href: string
 }
 
 export const menuLinks: MenuLink[] = [
-    { label: 'მთავარი', href: '/' },
-    { label: 'პროექტები', href: '/projects' },
-    { label: 'შეარჩიე ბინა', href: '/selection' },
-    { label: 'სიახლეები', href: '/news' },
-    { label: 'ლაივ კამერები', href: '/livecamera' },
-    { label: 'კონტაქტი', href: '/ordercall' }
+    { label: 'მთავარი', href: resolve('/') },
+    { label: 'პროექტები', href: resolve('/projects') },
+    { label: 'შეარჩიე ბინა', href: resolve('/selection') },
+    { label: 'სიახლეები', href: resolve('/news') },
+    { label: 'ლაივ კამერები', href: resolve('/livecamera') },
+    { label: 'კონტაქტი', href: resolve('/ordercall') }
 ]

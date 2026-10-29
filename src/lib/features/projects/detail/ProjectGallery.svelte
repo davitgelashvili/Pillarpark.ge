@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset } from '$app/paths';
     import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
     import { onMount } from 'svelte';
 
@@ -7,16 +8,16 @@
     const getGallery = () => (window as any).jQuery(gallery);
 
     const images = [
-        '/images/projects/5.png',
-        '/images/projects/2.jpg',
-        '/images/projects/4.png',
-        '/images/projects/1.png',
-        '/images/projects/6.png',
-        '/images/projects/8.jpg',
-        '/images/projects/9.jpg',
-        '/images/projects/10.jpg',
-        '/images/projects/11.jpg',
-        '/images/projects/7.png',
+        asset('images/projects/5.png'),
+        asset('images/projects/2.jpg'),
+        asset('images/projects/4.png'),
+        asset('images/projects/1.png'),
+        asset('images/projects/6.png'),
+        asset('images/projects/8.jpg'),
+        asset('images/projects/9.jpg'),
+        asset('images/projects/10.jpg'),
+        asset('images/projects/11.jpg'),
+        asset('images/projects/7.png'),
     ];
 
     onMount(() => {
@@ -49,10 +50,10 @@
 <div class="d-flex align-items-center">
                     <div class="d-none d-md-flex align-items-center">
                         <button class="section-slider--btn prev projects__slider--prev owl--prev d-flex align-items-center justify-content-center" onclick={() => getGallery().trigger('prev.owl.carousel')}>
-                            <img src="/images/slider/prev.svg" alt="წინა" />
+                            <img src={asset('images/slider/prev.svg')} alt="წინა" />
                         </button>
                         <button class="section-slider--btn next projects__slider--next owl--next d-flex align-items-center justify-content-center" onclick={() => getGallery().trigger('next.owl.carousel')}>
-                            <img src="/images/slider/next.svg" alt="შემდეგი" />
+                            <img src={asset('images/slider/next.svg')} alt="შემდეგი" />
                         </button>
                     </div>
                 </div>

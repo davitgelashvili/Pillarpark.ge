@@ -2,6 +2,9 @@ import adapter from '@sveltejs/adapter-static';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
+// GitHub Pages serves the site from /Pillarpark.ge/ (not from the domain root)
+const dev = process.argv.includes('dev');
+
 export default defineConfig({
 	plugins: [
 		sveltekit({
@@ -10,7 +13,11 @@ export default defineConfig({
 				runes: ({ filename }) =>
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
-			adapter: adapter()
+			adapter: adapter(),
+			paths: {
+				base: dev ? '' : '/Pillarpark.ge',
+				relative: false
+			}
 		})
 	]
 });

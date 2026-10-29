@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset } from '$app/paths';
     import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
 </script>
 
@@ -15,7 +16,7 @@
             </div>
             <div class="col d-flex align-items-center justify-content-end">
                 <figure class="conditions__cover">
-                    <img src="/images/conditions_cover.jpg" class="conditions__cover--img" alt="" />
+                    <img src={asset('images/conditions_cover.jpg')} class="conditions__cover--img" alt="" />
                 </figure>
             </div>
         </div>

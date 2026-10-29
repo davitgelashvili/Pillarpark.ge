@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset } from '$app/paths';
     import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
     import GroupStat from './GroupStat.svelte';
     import { groupStats } from './Group.ts';
@@ -29,7 +30,7 @@
                 </div>
             </div>
             <div class="col-lg-4 d-flex justify-content-lg-end align-items-start justify-content-center">
-                <!-- <img src="/images/group_cover.svg" class="group__cover imgtosvg" alt="" /> -->
+                <!-- <img src={asset('images/group_cover.svg')} class="group__cover imgtosvg" alt="" /> -->
                 <svg id="Layer_1" data-name="Layer 1" class="group__cover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.8 123.19">
                   <defs>
                     <style>

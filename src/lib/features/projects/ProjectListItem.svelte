@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset, resolve } from '$app/paths';
     import type { ProjectEntry } from './projects.ts';
 
     let { item }: { item: ProjectEntry } = $props();
@@ -17,7 +18,7 @@
                     <div>
                         <h1 class="projects__item--title">{item.title}</h1>
                         <p class="projects__item--location">
-                            <img src="/images/article_location.svg" alt="" />
+                            <img src={asset('images/article_location.svg')} alt="" />
                             {item.location}
                         </p>
                     </div>
@@ -29,7 +30,7 @@
                     {item.description}
                 </div>
                 <li class="projects__item--more">
-                    <a href="/projects/{item.slug}" class="projects__item--link">დეტალურად</a>
+                    <a href={resolve(`/projects/${item.slug}`)} class="projects__item--link">დეტალურად</a>
                 </li>
             </div>
         </div>

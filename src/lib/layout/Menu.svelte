@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset, resolve } from '$app/paths';
     import { menu } from "#lib/layout/menu.svelte.ts";
     import { page } from "$app/state";
     import MenuLink from "./MenuLink.svelte";
@@ -29,9 +30,9 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-6 d-block d-md-none">
-                                    <a href="/" class="header__logo">
+                                    <a href={resolve('/')} class="header__logo">
                                         <img
-                                            src="/images/logo_green.png"
+                                            src={asset('images/logo_green.png')}
                                             class="imgtosvg"
                                             alt=""
                                         />
@@ -47,11 +48,11 @@
                                             >
                                                 <li class="header__order">
                                                     <a
-                                                        href="/ordercall"
+                                                        href={resolve('/ordercall')}
                                                         class="header__order--btn d-flex align-items-center"
                                                     >
                                                         <img
-                                                            src="/images/order_icon.svg"
+                                                            src={asset('images/order_icon.svg')}
                                                             class="imgtosvg"
                                                             alt=""
                                                         />
@@ -73,7 +74,7 @@
                                                         (menu.open = false)}
                                                 >
                                                     <img
-                                                        src="/images/close.svg"
+                                                        src={asset('images/close.svg')}
                                                         class="imgtosvg"
                                                         alt=""
                                                     />
@@ -100,11 +101,11 @@
                             <div class="container">
                                 <li class="header__order">
                                     <a
-                                        href="/ordercall"
+                                        href={resolve('/ordercall')}
                                         class="header__order--btn d-flex align-items-center"
                                     >
                                         <img
-                                            src="/images/order_icon.svg"
+                                            src={asset('images/order_icon.svg')}
                                             class="imgtosvg"
                                             alt=""
                                         />

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset, resolve } from '$app/paths';
     import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
     import { onMount } from 'svelte';
     let otherhouse: HTMLElement | undefined;
@@ -29,14 +30,14 @@
                             onclick={() =>
                                 getSlider().trigger("prev.owl.carousel")}
                         >
-                            <img src="/images/slider/prev.svg" alt="" />
+                            <img src={asset('images/slider/prev.svg')} alt="" />
                         </button>
                         <button
                             class="section-slider--btn next projects__slider--next owl--next d-flex align-items-center justify-content-center"
                             onclick={() =>
                                 getSlider().trigger("next.owl.carousel")}
                         >
-                            <img src="/images/slider/next.svg" alt="" />
+                            <img src={asset('images/slider/next.svg')} alt="" />
                         </button>
                     </div>
                 </div>
@@ -47,7 +48,7 @@
             >
                 <div class="projects__item house__otherhouse--item">
                     <div class="projects__item--cover house__otherhouse--cover">
-                        <img src="/images/home.png" alt="" />
+                        <img src={asset('images/home.png')} alt="" />
                     </div>
                     <div class="projects__item--body house__otherhouse--body">
                         <div
@@ -69,7 +70,7 @@
                         </ul>
                         <li class="projects__item--more d-flex d-md-none">
                             <a
-                                href="/projects/digomi-8"
+                                href={resolve('/projects/digomi-8')}
                                 class="projects__item--link">არჩევა</a
                             >
                         </li>
@@ -78,7 +79,7 @@
                 <!-- item end -->
                 <div class="projects__item house__otherhouse--item">
                     <div class="projects__item--cover house__otherhouse--cover">
-                        <img src="/images/home.png" alt="" />
+                        <img src={asset('images/home.png')} alt="" />
                     </div>
                     <div class="projects__item--body house__otherhouse--body">
                         <div
@@ -100,7 +101,7 @@
                         </ul>
                         <li class="projects__item--more d-flex d-md-none">
                             <a
-                                href="/projects/digomi-8"
+                                href={resolve('/projects/digomi-8')}
                                 class="projects__item--link">არჩევა</a
                             >
                         </li>
@@ -109,7 +110,7 @@
                 <!-- item end -->
                 <div class="projects__item house__otherhouse--item">
                     <div class="projects__item--cover house__otherhouse--cover">
-                        <img src="/images/home.png" alt="" />
+                        <img src={asset('images/home.png')} alt="" />
                     </div>
                     <div class="projects__item--body house__otherhouse--body">
                         <div
@@ -131,7 +132,7 @@
                         </ul>
                         <li class="projects__item--more d-flex d-md-none">
                             <a
-                                href="/projects/digomi-8"
+                                href={resolve('/projects/digomi-8')}
                                 class="projects__item--link">არჩევა</a
                             >
                         </li>
@@ -140,7 +141,7 @@
                 <!-- item end -->
                 <div class="projects__item house__otherhouse--item">
                     <div class="projects__item--cover house__otherhouse--cover">
-                        <img src="/images/home.png" alt="" />
+                        <img src={asset('images/home.png')} alt="" />
                     </div>
                     <div class="projects__item--body house__otherhouse--body">
                         <div
@@ -162,7 +163,7 @@
                         </ul>
                         <li class="projects__item--more d-flex d-md-none">
                             <a
-                                href="/projects/digomi-8"
+                                href={resolve('/projects/digomi-8')}
                                 class="projects__item--link">არჩევა</a
                             >
                         </li>
