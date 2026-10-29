@@ -1,0 +1,23 @@
+<script lang="ts">
+    import SectionTitle from '#lib/components/SectionTitle/SectionTitle.svelte';
+</script>
+
+<div class="conditions">
+    <div class="container pl-container">
+        <div class="row">
+            <div class="col-md-7">
+                <SectionTitle title="ბინის ჩაბარების პირობები" class="justify-content-between mb-0" titleClass="conditions__title" />
+                <div class="conditions__body">
+                    <p>ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე </p>
+                    <br />
+                    <p>ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-end">
+                <figure class="conditions__cover">
+                    <img src="/images/conditions_cover.jpg" class="conditions__cover--img" alt="" />
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
