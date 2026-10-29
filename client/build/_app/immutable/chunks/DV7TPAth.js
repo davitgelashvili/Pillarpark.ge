@@ -1,1 +1,0 @@
-import{A as e,N as t,V as n,x as r,y as i}from"./C0a2Xe4i.js";import{t as a}from"./DkIpf0fD.js";import{t as o}from"./CjIbzsji.js";var s=r(`<div class="expert"><div class="container pl-container"><!> <!></div></div>`);function c(r){var c=s(),l=e(c),u=e(l);a(u,{title:`ბინის შერჩევა`,class:`justify-content-center`});var d=t(u,2);o(d,{}),n(l),n(c),i(r,c)}export{c as t};
